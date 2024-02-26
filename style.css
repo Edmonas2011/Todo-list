@@ -1,0 +1,53 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo {
+    /* border: 1px solid;
+    width: 150px;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background: #fff; */
+
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    width: 8rem;
+}
+
+.todo.active {
+    background: #4caf50;
+}
+
+.fa-trash {
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.submit {
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+div.todo.active {
+    text-decoration: line-through;
+}
+
+body {
+    background: -webkit-gradient(
+        linear,
+        left top,
+        right bottom,
+        from(#af5e94),
+        to(#5949f2)
+    )
+    fixed;
+}
